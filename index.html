@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>task 1</title>
+  </head>
+  <body>
+    <img src="logo.png" alt="not found" />
+    <form action="" method="post">
+      <div>
+        <label for="username">full name (in english)</label>
+        <input
+          type="text"
+          id="username"
+          name="username"
+          placeholder="enter your username"
+          required
+        />
+      </div>
+      <div>
+        <label for="phonenumber"> phone number</label>
+
+        <input
+          type="text"
+          id="phonenumber"
+          placeholder="enter phone number"
+          max="15999999999"
+          min="01000000000"
+          required
+        />
+      </div>
+      <div>
+        <label for="email"> Email</label>
+        <input type="email" id="email" placeholder="enter email" required />
+      </div>
+      <div>
+        <label for="academic year">academic year</label>
+        <select name="academic year" id="academic year" required>
+          <option value="" disabled selected>academic year</option>
+          <option value="freshman">freshman</option>
+          <option value="sophomore">sophomore</option>
+          <option value="jonur">jonur</option>
+          <option value="senior">senior</option>
+        </select>
+      </div>
+      <div>
+        <label for="department">department</label>
+        <select name="department" id="department">
+          <option value="" disabled selected>department</option>
+          <option value="civil">civil</option>
+          <option value="architacture">architacture</option>
+          <option value="mechanical">mechanical</option>
+          <option value="electrical">electrical</option>
+        </select>
+      </div>
+      <div>
+        <label for="first preference">first preference</label>
+        <select name="first preference" id="first preference">
+          <option value="" selected disabled>first preference</option>
+        </select>
+      </div>
+      <div>
+        <label for="second preference">second preference</label>
+        <select name="second preference" id="second preference">
+          <option value="" selected disabled>second preference</option>
+        </select>
+      </div>
+      <div>
+        <button type="submit">register</button>
+      </div>
+    </form>
+  </body>
+</html>
